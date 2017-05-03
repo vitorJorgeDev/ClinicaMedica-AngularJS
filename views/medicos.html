@@ -1,0 +1,21 @@
+﻿<div style="margin-top:100px" class="container">
+
+   
+    <div class="row">
+                <h2 style="text-align:center">Medicos</h2>
+                <table style="width:100%" border="1">
+                    <tr>
+                        <th> CRM: </th>
+                        <th> NOME: </th>
+                        <th> ESPECIALIDADES </th>
+                    </tr>
+                    <tbody ng-repeat="medico in items">
+                        <tr>
+                            <td> {{medico.CRM}} </td>
+                            <td> {{medico.NOME}} </td>
+                            <td> {{medico.Especialidade}} </td>
+                        </tr>
+                    </tbody>
+                </table>
+    </div>
+</div>

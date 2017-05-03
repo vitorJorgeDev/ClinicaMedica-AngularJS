@@ -1,0 +1,175 @@
+﻿[
+	{
+		"CRM": 1010,
+		"NOME": "Dr. André Batista",
+		"Especialidade": "Clinico Geral"
+	
+	},
+	{
+		"CRM": 1020,
+		"NOME": "Dr. Afonso Valadares",
+		"Especialidade": "Pediatra"
+	
+	},
+	{
+		"CRM": 1030,
+		"NOME": "Dr. Aloisio Cavalcante",
+		"Especialidade": "Endocrinologista"
+		
+	},
+
+	{
+		"CRM": 1040,
+		"NOME": "Dra. Angelica Sonsa",
+		"Especialidade": "Oftalmologia"
+		
+	},
+
+	{
+		"CRM": 1050,
+		"NOME": "Dr. Bruno F. Soares",
+		"Especialidade": "Homeopatia"
+		
+	},
+
+	{
+		"CRM": 1050,
+		"NOME": "Dr. Carlos J. C. Anibal",
+		"Especialidade": "Psicologia"
+		
+	},
+
+	{
+		"CRM": 1060,
+		"NOME": "Dra. Camila B. da Silva",
+		"Especialidade": "Infectologia"
+		
+	},
+
+	{
+		"CRM": 1070,
+		"NOME": "Dra. Carla S. Cunha",
+		"Especialidade": "Oftalmologia"
+		
+	},
+
+	{
+		"CRM": 1080,
+		"NOME": "Dr. Douglas dos Santos",
+		"Especialidade": "Cardiologia"
+		
+	},
+
+	{
+		"CRM": 1090,
+		"NOME": "Dr. Evaristo da Silva Junior",
+		"Especialidade": "Oncologia"
+		
+	},
+
+	{
+		"CRM": 1100,
+		"NOME": "Dr. Erivaldo da Silva Bahia",
+		"Especialidade": "Pediatria"
+		
+	},
+
+	{
+		"CRM": 1110,
+		"NOME": "Dr. Fabrizio da Gondola",
+		"Especialidade": "Psiquiatria"
+		
+	},
+
+	{
+		"CRM": 1120,
+		"NOME": "Dra. Fabiana da Godoi",
+		"Especialidade": "Fisiatria"
+		
+	},
+
+	{
+		"CRM": 1130,
+		"NOME": "Dr. Gabriel S. Amaral",
+		"Especialidade": "Reumatologia"
+		
+	},
+
+	{
+		"CRM": 1140,
+		"NOME": "Dr. Helio T. Sherrer",
+		"Especialidade": "Clinico Geral"
+		
+	},
+
+	{
+		"CRM": 1150,
+		"NOME": "Dr. Igor O. Silveira",
+		"Especialidade": "Clinico Geral"
+		
+	},
+
+	{
+		"CRM": 1160,
+		"NOME": "Dr. Inacio R. E. I. Otto",
+		"Especialidade": "Clinico Geral"
+		
+	},
+
+	{
+		"CRM": 1170,
+		"NOME": "Dr. Jorge R. Oliverio",
+		"Especialidade": "Urologia"
+		
+	},
+
+	{
+		"CRM": 1180,
+		"NOME": "Dra. Janete R. Salvador",
+		"Especialidade": "Otorrinolaringologia"
+		
+	},
+
+	{
+		"CRM": 1190,
+		"NOME": "Dra. Jacinta C. dos Santos",
+		"Especialidade": "Dermatologia"
+		
+	},
+
+	{
+		"CRM": 1210,
+		"NOME": "Dr. George F. G. Santana",
+		"Especialidade": "Angiologia"
+		
+	},
+
+	{
+		"CRM": 1220,
+		"NOME": "Dr. Gordon G. Estrangeiro",
+		"Especialidade": "Pneumologia"
+		
+	},
+
+	{
+		"CRM": 1230,
+		"NOME": "Dr. Leandro Fao. Anão",
+		"Especialidade": "Pneumologia"
+		
+	},
+
+	{
+		"CRM": 1240,
+		"NOME": "Dr. Marcos V. Surdo",
+		"Especialidade": "Nefrologia"
+		
+	},
+
+	{
+		"CRM": 1250,
+		"NOME": "Dr. Nilson Y. Calvacante",
+		"Especialidade": "Infectologia"
+		
+	}
+
+]

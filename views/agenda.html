@@ -1,0 +1,105 @@
+﻿<div style="margin-top:100px" class="container">
+    <div class="row">
+        <h1> Cadastre o agendamento da consulta</h1>
+        <hr>
+    </div>
+
+    <div class="row">
+        <form>
+
+            <div class="form-group">
+                <label for="nome_completo">* Digite seu nome completo:</label>
+                <input type="text" class="form-control" name="nome_completo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Informe seu e-mail:</label>
+                <input type="email" class="form-control" name="mail" >
+            </div>
+
+            <div class="form-group">
+                <label for="idade">Informe sua idade:</label>
+                <input type="number" class="form-control" name="idade" min="18" max="110" >
+            </div>
+
+            <div class="form-group">
+                <label for="data">*Data: </label>
+                <input type="date" id="data" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="hora"> *Hora: </label>
+                <input type="time" id="hora" class="form-control" required/>
+            </div>
+
+
+            <div class="form-group">
+                    <label for="tratamentos">*Tratametos:</label>
+                    <select class="form-control" required>
+                        <option  ng-repeat="tratamentos in nomes" id="tratamento"
+                                value="{{tratamentos.descricao}}">
+                            {{tratamentos.descricao}} 
+                        </option>
+                    </select> <br />
+               </div>
+
+            <div class="form-group">
+                <label for="medico">*Medico:</label>
+                <select class="form-control" required>
+                    <option ng-repeat="medico in items" id="medico"
+                            value="{{medico.NOME}}">
+                        {{medico.NOME}}
+                    </option>
+                </select>
+
+
+            </div>
+
+            <div class="form-group">
+                <label for="convenio">*Tem Convenio Medico ?:</label><br />
+                <input type="radio" name="convenio" value="Não" checked> Não<br />
+                <input type="radio" name="convenio" value="Sim"> Sim
+            </div>
+           
+            <div class="form-group" align="center" onclick="mensagem()">
+                <button type="submit" class="btn btn-lg btn-success">
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> Enviar dados
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<!--
+
+<form>
+    <label for="data">Data</label>
+    <input type="date" id="data" /> <br />
+
+    <label for="hora"> Hora </label>
+    <input type="time" id="hora" /> <br />
+
+    <label for="convenio">Tem Convenio?</label>
+    <input type="radio" name="convenio" value="Não"checked />Não
+    <input type="radio" name="convenio" value="Sim" />Sim <br />
+
+    <label for="tratamentos">Tratametos</label>
+    <select >
+        <option ng-repeat="tratamentos in nomes" id="tratamento"
+                value="{{tratamentos.descricao}}" >{{tratamentos.descricao}}
+        </option>
+    </select> <br />
+
+    <label for="medico">Medico</label>
+    <select>
+        <option ng-repeat="medico in items" id="medico"
+                value="{{medico.NOME}}" > {{medico.NOME}} </option>
+    </select> <br /> <br />
+
+    <input type="submit" onclick="mensagem()" value="Confirmar" /><br />
+
+
+
+</form>
+    -->

@@ -1,0 +1,23 @@
+﻿<div style="margin-top:100px" class="container">
+    <div class="row">
+
+        <h2 style="text-align:center">Tratamentos</h2>
+
+        <table style="width:100%" border="1">
+            <tr>
+                <th>Codigo</th>
+                <th>Descrição</th>
+                <th>Duração</th>
+            </tr>
+            <tbody ng-repeat="nome in nomes">
+                <tr>
+                    <td>{{nome.codigo}}</td>
+                    <td>{{nome.descricao}}</td>
+                    <td>{{nome.duracao}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+  

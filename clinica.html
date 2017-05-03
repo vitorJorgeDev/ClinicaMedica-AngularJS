@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <title>Clinica de tratamentos</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="../css/estilos.css" />
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+
+
+    
+
+      a:link{
+          color: white;
+      }
+      a:visited{
+          color: lightgray;
+      }
+      a:hover{
+          color: black;
+      }
+      a:active{
+          color: white;
+      }
+          
+      .body {
+          
+          height: 900px;
+          background-color: lightgray;
+          
+      }
+  </style>
+
+</head>
+
+<html >
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+
+
+
+<body  ng-app="myApp" class="body">
+
+    <div style="background-color: darkblue"  class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span style="font-size: 18px "><a href="#/">Tratamentos | </a></span>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <span style="font-size: 18px "><a href="#medicos">Medicos | </a></span>
+                    <span style="font-size: 18px "><a href="#agenda">Agenda </a></spanstyle="font-size:>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- 
+    <div class="cabecalho">
+        <span><a href="#/">Tratamentos | </a></span>
+        <span><a href="#medicos">Medicos | </a></span>
+        <span><a href="#agenda">Agenda </a></span>
+
+    </div>
+        -->
+
+
+    <div ng-view ></div>
+
+    <script>
+        var app = angular.module("myApp", ["ngRoute"]);
+        app.config(function ($routeProvider) {
+            $routeProvider
+                .when("/", {
+
+                    templateUrl: "views/tratamentos.html",
+                    controller: "tratamentos"
+                })
+                .when("/medicos", {
+                    templateUrl: "views/medicos.html",
+                    controller: "medicos"
+
+                })
+                .when("/agenda", {
+                    templateUrl: "views/agenda.html",
+                    controller: "agenda"
+
+                });
+
+        });
+    </script>
+    <footer class="footer">
+        <p>Desenvolvido para o Curso de MBA da Fiap Paulista</p>
+        <p>Copyright 2017 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="controllers/agenda.js"></script>
+    <script src="controllers/medicos.js"></script>
+    <script src="controllers/tratamentos.js"></script>
+
+   
+</body>
+</html>
